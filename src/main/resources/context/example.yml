@@ -1,0 +1,41 @@
+info:
+  #关注 AYTARS 谢谢喵
+  namespace: aytars
+
+items:
+  test_item:
+    # 此选项可为空
+    name: LUELUELUE
+    # 此选项可为空
+    lore:
+      - "wdnmd QAQ"
+      - "点点关注谢谢喵"
+    material: DIAMOND_BLOCK
+    # 此选项可为空 当你不填时 id 为 test_item 也就是当前节点的 key
+    Mod-ID: aytars_item
+    # 此选项可为空 当你不填时 namespace 为 info 里的 namespace
+    Mod-Namespace: aytars
+    #可为空
+    specific_properties:
+      block:
+        placed_model: aytars:test_block
+blocks:
+  test_block:
+    # 此选项可为空  放下去后 服务器的默认方块
+    material: DIAMOND_BLOCK
+    # 此选项可为空 当你不填时 id 为 test_block 也就是当前节点的 key
+    Mod-ID: aytars_block
+    # 此选项可为空 当你不填时 namespace 为 info 里的 namespace
+    Mod-Namespace: aytars
+    loot:
+      - aytars:test_item
+    # 此选项可为空 自定义放置的声音什么的
+    sound:
+      break:
+        name: BLOCK_WOOD_BREAK
+        volume: 1
+        pitch: 0.9
+      place:
+        name: BLOCK_WOOD_PLACE
+        volume: 1
+        pitch: 0.9

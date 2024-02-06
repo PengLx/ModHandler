@@ -1,0 +1,5 @@
+settings:
+  #强制客户端安装MOD
+  force: false
+  #数据存储模式 AUTO (自动选择) / SQLITE / PDC (PDC可能存在数据污染 但是数据存在存档之内,便与多个服务器同步）
+  unique-block-mode: AUTO
